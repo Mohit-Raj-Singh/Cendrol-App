@@ -1,0 +1,17 @@
+.mainBox {
+  border: 1px solid;
+  /* height: 500px; */
+  /* background-color: #417fe4; */
+  background-image: linear-gradient(to right,#417fe4, #373b45);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+.container{
+    border: 1px solid red;
+    cursor: pointer;
+    height: 155px;
+    background-color: beige;
+}
